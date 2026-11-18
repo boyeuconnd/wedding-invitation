@@ -93,8 +93,8 @@ const profileSection = {
     {
       title: "groom",
       name: "Phạm Hải Đăng",
-      avatar: `${cdnLink}/groom2`,
-      images: [`${cdnLink}/groom3`, `${cdnLink}/groom1`],
+      avatar: `${cdnLink2}/NQM00332`,
+      images: [`${cdnLink2}/NQM00375`, `${cdnLink2}/NQM00381`],
     },
   ],
 };
