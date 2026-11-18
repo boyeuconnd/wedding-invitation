@@ -14,6 +14,7 @@ function Infomation({
   time = "",
   address = "",
   street = "",
+  mapUrl = "",
   phone = "",
 }) {
   const boxRef = useRef();
@@ -62,8 +63,9 @@ function Infomation({
       </a>
       <a
         className={cx("btn")}
-        href={`http://maps.google.com/?q=${street}`}
+        href={mapUrl || `http://maps.google.com/?q=${street}`}
         target="_blank"
+        rel="noopener noreferrer"
       >
         <FaMapMarkerAlt className={cx("icon")} />
         Đường đi

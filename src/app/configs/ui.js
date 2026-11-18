@@ -1,8 +1,8 @@
 import images from "../images";
 
 const WISH_API_LINK = ""; // use mock api
-const cdnLink =
-  "https://res.cloudinary.com/do6sozxbo/image/upload/f_auto,q_auto/v1/wedding5";
+const cdnLink = "https://res.cloudinary.com/do6sozxbo/image/upload/f_auto,q_auto/v1/wedding5";
+const cdnLink2 = "https://res.cloudinary.com/ph4aqsxn/image/upload/f_auto,q_auto/";
 
 // common
 
@@ -25,14 +25,15 @@ const configConfetti = {
 const weddingInfo = [
   {
     time: {
-      date: "22/12",
-      year: "2024",
-      time: "11:00",
-      full: "Chủ nhật, Ngày 22 Tháng 12 năm 2024",
+      date: "28/12",
+      year: "2026",
+      time: "13:00",
+      full: "Thứ Hai, Ngày 28 Tháng 12 năm 2026",
     },
-    address: "Tổ 23A , xã tân lập , huyện đồng phú , tỉnh bình phước",
-    street: "Tổ 23A , xã tân lập , huyện đồng phú , tỉnh bình phước",
-    phone: "0375 889 827",
+    address: "55 Âu Cơ, Phường Nam Định, Tỉnh Ninh Bình",
+    street: "55 Âu Cơ, Phường Nam Định, Tỉnh Ninh Bình",
+    mapUrl: "https://maps.app.goo.gl/45sihFA5EzDJ5J2WA",
+    phone: "0829 427 568",
     posision: "bottom left",
   },
 ];
@@ -41,40 +42,40 @@ const weddingInfo = [
 const daysInMonth = [
   {
     title: "mon",
-    days: [0, 2, 9, 16, 23, 30],
+    days: [0, 7, 14, 21, 28],
   },
   {
     title: "tue",
-    days: [0, 3, 10, 17, 24, 31],
+    days: [1, 8, 15, 22, 29],
   },
   {
     title: "wed",
-    days: [0, 4, 11, 18, 25, 0],
+    days: [2, 9, 16, 23, 30],
   },
   {
     title: "thu",
-    days: [0, 5, 12, 19, 26, 0],
+    days: [3, 10, 17, 24, 31],
   },
   {
     title: "fri",
-    days: [0, 6, 13, 20, 27, 0],
+    days: [4, 11, 18, 25, 0],
   },
   {
     title: "sat",
-    days: [0, 7, 14, 21, 27, 0],
+    days: [5, 12, 19, 26, 0],
   },
   {
     title: "sun",
-    days: [1, 8, 15, 22, 29, 0],
+    days: [6, 13, 20, 27, 0],
   },
 ];
 
 // invitation intro (first section)
 const introSection = {
   mainImage:
-    "https://res.cloudinary.com/do6sozxbo/image/upload/f_auto,q_auto/v1/wedding5/e3",
-  brideFirstLetter: "T",
-  groomFirstLetter: "H",
+    "https://res.cloudinary.com/ph4aqsxn/image/upload/f_auto,q_auto/NQM00540",
+  brideFirstLetter: "Đ",
+  groomFirstLetter: "N",
 };
 
 // profile section
@@ -85,13 +86,13 @@ const profileSection = {
   profiles: [
     {
       title: "bride",
-      name: "Trần Thị Thúy",
-      avatar: `${cdnLink}/bride6`,
-      images: [`${cdnLink}/bride4`, `${cdnLink}/bride7`],
+      name: "Lê Thị Nga",
+      avatar: `${cdnLink2}/NQM00310`,
+      images: [`${cdnLink2}/NQM00302`, `${cdnLink2}/NQM00293`],
     },
     {
       title: "groom",
-      name: "Lang Mạnh Hùng",
+      name: "Phạm Hải Đăng",
       avatar: `${cdnLink}/groom2`,
       images: [`${cdnLink}/groom3`, `${cdnLink}/groom1`],
     },
@@ -102,7 +103,7 @@ const profileSection = {
 
 const invitationSection = {
   imgs: [`${cdnLink}/e7`, `${cdnLink}/e4`, `${cdnLink}/e6`],
-  activeDay: 22,
+  activeDay: 28,
 };
 
 // album section
@@ -122,7 +123,7 @@ const albumSection = {
 
 const guestbookSection = {
   image: `${cdnLink}/e5`,
-  time: "12/12/2024",
+  time: "28/12/2026",
 };
 
 // gift section
@@ -147,9 +148,12 @@ const giftSection = {
 // timer
 const timerSection = {
   weddingTime: {
-    year: 2024,
-    day: 22,
+    year: 2026,
+    day: 28,
     month: 12,
+    hour: 13,    // 24-hour format
+    minute: 0,
+    second: 0,
   },
 };
 
@@ -302,13 +306,13 @@ const albums = [...albumA, ...albumB, ...albumC]; // for preview
 
 const metaData = {
   main: {
-    title: "Báo Hỉ Hùng - Thúy | Kính Mời",
+    title: "Báo Hỉ Đăng - Nga | Kính Mời",
     graphImage:
       "https://res.cloudinary.com/do6sozxbo/image/upload/v1730558395/wedding5/land.jpg",
   },
 
   wish: {
-    title: "Tất cả lời chúc dành cho Hùng - Thúy",
+    title: "Tất cả lời chúc dành cho Đăng - Nga",
     graphImage:
       "https://res.cloudinary.com/do6sozxbo/image/upload/v1730558395/wedding5/am11.jpg",
   },
@@ -319,7 +323,7 @@ const metaData = {
       "https://res.cloudinary.com/do6sozxbo/image/upload/v1730394150/wedding5_1/a3.jpg",
   },
   album: {
-    title: "Album của Hùng - Thúy`",
+    title: "Album của Đăng - Nga",
     graphImage:
       "https://res.cloudinary.com/do6sozxbo/image/upload/v1730558395/wedding5/final3.jpg",
   },

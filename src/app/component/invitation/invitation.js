@@ -51,6 +51,7 @@ function Invitation() {
         time={wedInfo.time}
         address={wedInfo.address}
         street={wedInfo.street}
+        mapUrl={wedInfo.mapUrl}
         phone={wedInfo.phone}
         posision={wedInfo.posision}
       />

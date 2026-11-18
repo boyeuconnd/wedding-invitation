@@ -33,7 +33,10 @@ function Timer() {
         let weddingDay = new Date(
           timerSection.weddingTime.year,
           timerSection.weddingTime.month - 1,
-          timerSection.weddingTime.day
+          timerSection.weddingTime.day,
+            timerSection.weddingTime.hour,
+            timerSection.weddingTime.minute,
+            timerSection.weddingTime.second,
         );
         if (dateAtm > weddingDay) {
           weddingDay = new Date(
