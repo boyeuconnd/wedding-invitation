@@ -132,16 +132,16 @@ const giftSection = {
   image:
     "https://res.cloudinary.com/do6sozxbo/image/upload/v1730383598/wedding5/am3.jpg",
   brideBank: {
-    name: "Trần Thị Thuý",
-    bankName: "Vietinbank ",
-    qr: images.qr2.default.src,
+    name: "   LE THI NGA",
+    bankName: "VIETCOM BANK",
+    qr: images.qr_cd.default.src,
     bankNumber: "107880386791",
   },
   groomBank: {
-    name: "Lang Mạnh Hùng",
-    bankName: "MB BANK",
-    qr: images.qr.default.src,
-    bankNumber: "9999999996654",
+    name: "PHAM HAI DANG",
+    bankName: "TECHCOMBANK",
+    qr: images.qr_cr.default.src,
+    bankNumber: "2418666668",
   },
 };
 

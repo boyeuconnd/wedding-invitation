@@ -1,7 +1,7 @@
 const images = {
   invite: require("./invite.png"),
-  qr: require("./qr.jpg"),
-  qr2: require("./qr2.jpg"),
+  qr_cd: require("./qr.jpg"),
+  qr_cr: require("./qr_cr.jpg"),
   heart: require("./heart.png"),
 };
 
