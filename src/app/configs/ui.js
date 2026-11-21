@@ -73,7 +73,7 @@ const daysInMonth = [
 // invitation intro (first section)
 const introSection = {
   mainImage:
-    "https://res.cloudinary.com/ph4aqsxn/image/upload/f_auto,q_auto/NQM00540",
+    "https://res.cloudinary.com/ph4aqsxn/image/upload/f_auto,q_auto,h_0.40,w_0.40/NQM00540",
   brideFirstLetter: "Đ",
   groomFirstLetter: "N",
 };
@@ -87,14 +87,15 @@ const profileSection = {
     {
       title: "bride",
       name: "Lê Thị Nga",
-      avatar: `${cdnLink2}/f_auto,q_auto/NQM00302`,
-      images: [`${cdnLink2}/f_auto,q_auto/NQM00293`, `${cdnLink2}/f_auto,q_auto/NQM00310`],
+      avatar: `${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/NQM00302`,
+      images: [`${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/NQM00293`,
+        `${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/NQM00310`],
     },
     {
       title: "groom",
       name: "Phạm Hải Đăng",
-      avatar: `${cdnLink2}/f_auto,q_auto/NQM00332`,
-      images: [`${cdnLink2}/f_auto,q_auto/NQM00375`, `${cdnLink2}/f_auto,q_auto/NQM00381`],
+      avatar: `${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/NQM00332`,
+      images: [`${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/NQM00375`, `${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/NQM00381`],
     },
   ],
 };
@@ -102,7 +103,7 @@ const profileSection = {
 // invitation section
 
 const invitationSection = {
-  imgs: [`${cdnLink}/e7`, `${cdnLink2}/f_auto,q_auto/album/NQM00234`, `${cdnLink}/e6`],
+  imgs: [`${cdnLink}/e7`, `${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/album/NQM00234`, `${cdnLink}/e6`],
   activeDay: 28,
 };
 
@@ -110,19 +111,19 @@ const invitationSection = {
 
 const albumSection = {
   images: [
-    `${cdnLink2}/f_auto,q_auto/NQM00831`,
-    `${cdnLink2}/f_auto,q_auto/NQM00116`,
-    `${cdnLink2}/f_auto,q_auto/album/NQM00234`, // [2] ← left image (side-img)
-    `${cdnLink2}/f_auto,q_auto/NQM00622`,
-    `${cdnLink2}/f_auto,q_auto/NQM00176`,
-    `${cdnLink2}/f_auto,q_auto/album/NQM00466`, // [5] ← right image (main-img)
+    `${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/NQM00831`,
+    `${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/NQM00116`,
+    `${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/album/NQM00234`, // [2] ← left image (side-img)
+    `${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/NQM00622`,
+    `${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/NQM00176`,
+    `${cdnLink2}/f_auto,q_auto,h_0.40,w_0.40/album/NQM00466`, // [5] ← right image (main-img)
   ],
 };
 
 // guestbook section
 
 const guestbookSection = {
-  image: `${cdnLink2}/f_auto,q_auto/NQM00622`,
+  image: `${cdnLink2}/f_auto,q_auto,h_0.30,w_0.30/NQM00622`,
   time: "28/12/2026",
 };
 
@@ -130,7 +131,7 @@ const guestbookSection = {
 
 const giftSection = {
   image:
-    `${cdnLink2}/f_auto,q_auto/NQM00518`,
+    `${cdnLink2}/f_auto,q_auto,h_0.30,w_0.30/NQM00518`,
   brideBank: {
     name: "Le Thi Nga",
     bankName: "VIETCOMBANK",
