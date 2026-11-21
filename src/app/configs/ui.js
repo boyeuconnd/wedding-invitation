@@ -2,7 +2,7 @@ import images from "../images";
 
 const WISH_API_LINK = ""; // use mock api
 const cdnLink = "https://res.cloudinary.com/do6sozxbo/image/upload/f_auto,q_auto/v1/wedding5";
-const cdnLink2 = "https://res.cloudinary.com/ph4aqsxn/image/upload/f_auto,q_auto/";
+const cdnLink2 = "https://res.cloudinary.com/ph4aqsxn/image/upload";
 
 // common
 
@@ -87,14 +87,14 @@ const profileSection = {
     {
       title: "bride",
       name: "Lê Thị Nga",
-      avatar: `${cdnLink2}/NQM00310`,
-      images: [`${cdnLink2}/NQM00302`, `${cdnLink2}/NQM00293`],
+      avatar: `${cdnLink2}/f_auto,q_auto/NQM00302`,
+      images: [`${cdnLink2}/f_auto,q_auto/NQM00293`, `${cdnLink2}/f_auto,q_auto/NQM00310`],
     },
     {
       title: "groom",
       name: "Phạm Hải Đăng",
-      avatar: `${cdnLink2}/NQM00332`,
-      images: [`${cdnLink2}/NQM00375`, `${cdnLink2}/NQM00381`],
+      avatar: `${cdnLink2}/f_auto,q_auto/NQM00332`,
+      images: [`${cdnLink2}/f_auto,q_auto/NQM00375`, `${cdnLink2}/f_auto,q_auto/NQM00381`],
     },
   ],
 };
@@ -102,7 +102,7 @@ const profileSection = {
 // invitation section
 
 const invitationSection = {
-  imgs: [`${cdnLink}/e7`, `${cdnLink}/e4`, `${cdnLink}/e6`],
+  imgs: [`${cdnLink}/e7`, `${cdnLink2}/f_auto,q_auto/album/NQM00234`, `${cdnLink}/e6`],
   activeDay: 28,
 };
 
@@ -110,19 +110,19 @@ const invitationSection = {
 
 const albumSection = {
   images: [
-    `${cdnLink}/e1`,
-    `${cdnLink}/e3`,
-    `${cdnLink}/e4`,
-    `${cdnLink}/e5`,
-    `${cdnLink}/e7`,
-    `${cdnLink}/e8`,
+    `${cdnLink2}/f_auto,q_auto/NQM00831`,
+    `${cdnLink2}/f_auto,q_auto/NQM00116`,
+    `${cdnLink2}/f_auto,q_auto/album/NQM00234`, // [2] ← left image (side-img)
+    `${cdnLink2}/f_auto,q_auto/NQM00622`,
+    `${cdnLink2}/f_auto,q_auto/NQM00176`,
+    `${cdnLink2}/f_auto,q_auto/album/NQM00466`, // [5] ← right image (main-img)
   ],
 };
 
 // guestbook section
 
 const guestbookSection = {
-  image: `${cdnLink}/e5`,
+  image: `${cdnLink2}/f_auto,q_auto/NQM00622`,
   time: "28/12/2026",
 };
 
@@ -130,18 +130,18 @@ const guestbookSection = {
 
 const giftSection = {
   image:
-    "https://res.cloudinary.com/do6sozxbo/image/upload/v1730383598/wedding5/am3.jpg",
+    `${cdnLink2}/f_auto,q_auto/NQM00518`,
   brideBank: {
-    name: "   LE THI NGA",
-    bankName: "VIETCOM BANK",
+    name: "Le Thi Nga",
+    bankName: "VIETCOMBANK",
     qr: images.qr_cd.default.src,
-    bankNumber: "107880386791",
+    bankNumber: "0451000481321",
   },
   groomBank: {
-    name: "PHAM HAI DANG",
+    name: "Pham Hai Dang",
     bankName: "TECHCOMBANK",
     qr: images.qr_cr.default.src,
-    bankNumber: "2418666668",
+    bankNumber: "8666666638",
   },
 };
 
@@ -161,10 +161,10 @@ const timerSection = {
 
 const finalSection = {
   images: [
-    `${cdnLink}/final1`,
-    `${cdnLink}/final2`,
-    `${cdnLink}/final3`,
-    `${cdnLink}/final4`,
+    `${cdnLink2}/c_fill,ar_1:1,g_auto,w_1200/f_auto,q_auto/NQM00805`,
+    `${cdnLink2}/c_fill,ar_1:1,g_auto,w_1200/f_auto,q_auto/NQM00763`,
+    `${cdnLink2}/c_fill,ar_1:1,g_auto,w_1200/f_auto,q_auto/NQM00869`,
+    `${cdnLink2}/c_fill,ar_1:1,g_auto,w_1200/f_auto,q_auto/NQM00831`,
   ],
 };
 
@@ -173,7 +173,7 @@ const finalSection = {
 const albumPage = {
   topImage: `${cdnLink}/aland3`,
   bottomImage: `${cdnLink}/aland2`,
-  mainImage: `${cdnLink}/e1`,
+  mainImage: `${cdnLink2}/f_auto,q_auto:good,w_1200,c_limit/NQM00082`,
 };
 
 const albumA = [
@@ -186,7 +186,7 @@ const albumA = [
 
       {
         id: 2,
-        img: `${cdnLink}/e4`,
+        img: `${cdnLink2}/f_auto,q_auto/album/NQM00234`,
       },
     ],
   },

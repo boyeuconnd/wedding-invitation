@@ -47,7 +47,9 @@ function Album() {
             transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1)",
           }}
         >
-          <img className={cx("hfimg")} src={albumPage.mainImage} />
+          <img className={cx("hfimg")} src={albumPage.mainImage}
+
+          />
         </div>
       </div>
       <div className={cx("container")}>
