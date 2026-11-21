@@ -82,7 +82,7 @@ const introSection = {
 
 const profileSection = {
   description:
-    "Hôn nhân không phải là một điểm đến mà là một cuộc hành trình nơi mà hai người cùng xây dựng và phát triển",
+    "Hôn nhân không phải là một điểm đến mà là một cuộc hành trình nơi mà hai người cùng xây dựng và phát triển.",
   profiles: [
     {
       title: "bride",
